@@ -1,0 +1,104 @@
+.lorem1 {
+    width: 100%;
+    height: 680px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.lorem1_left, .lorem1_right {
+    width: 50%;
+    height: 100%;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lorem1_title {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 50px 0 50px 0;
+    display: flex;
+    flex-flow: column;
+}
+.lorem1_title h1 {
+    font-size: 73px;
+    animation: dragin 2s forwards;
+}
+.lorem1_title p {
+    font-size: 23px;
+    margin: 20px 0 0 0;
+}
+.in1 {
+    animation: dragin 2s 1s forwards;
+    transform: translateX(-100%);
+}
+.in2 {
+    animation: dragin 2s 1.5s forwards;
+    transform: translateX(-100%);
+}
+.in3 {
+    animation: dragin 2s 2s forwards;
+    transform: translateX(-100%);
+}
+.in4 {
+    animation: dragin 2s 2.5s forwards;
+    transform: translateX(-100%);
+}
+.in5 {
+    animation: dragin 2s 3s forwards;
+    transform: translateX(-100%);
+}
+.in6 {
+    animation: dragin 2s 3.5s forwards;
+    transform: translateX(-100%);
+}
+.in7 {
+    animation: dragin 2s 4s forwards;
+    transform: translateX(-100%);
+}
+.in8 {
+    animation: dragin 2s 4.5s forwards;
+    transform: translateX(-100%);
+}
+@keyframes dragin {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.lorem1_bg_images {
+    width: 100%;
+    height: 85%;
+    overflow: hidden;
+    border-radius: 1000vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 0px 30px 20px #4682B4;
+    position: relative;
+    animation: rotatein 5s forwards;
+}
+@keyframes rotatein {
+    0% {
+        opacity: 0;
+        transform: rotate(0) scale(0);
+    }
+    100% {
+        opacity: 1;
+        transform: rotate(360deg) scale(1.0);
+        
+    }
+}
+.lorem1_bg_video {
+    width: inherit;
+    height: inherit;
+    transform: scale(1.9) translateX(20%);
+    position: absolute;
+    z-index: -1;
+    margin: 10px;
+}
