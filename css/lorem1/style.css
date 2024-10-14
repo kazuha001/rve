@@ -72,8 +72,8 @@
 }
 
 .lorem1_bg_images {
-    width: 100%;
-    height: 85%;
+    width: 400px;
+    height: 400px;
     overflow: hidden;
     border-radius: 1000vh;
     display: flex;
